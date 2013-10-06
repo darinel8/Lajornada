@@ -2,11 +2,13 @@
 //script chafa para bajar el periódico LaJornada :D 
 //Estudiar y Aprender para el pueblo Defender .:[www.RojosBar.com]:.
 //El script solo funciona después de las 16:05 hora Centro México [hora que es publicado en ISSUU]
+//quejas, dudas, reclamaciones, via twitter @rojosbar
+//Bajo licencia creativecommons http://creativecommons.org/licenses/by-nc-sa/2.5/mx/
 
 
-//Aquí esta  la dirección del día de la LaJornada en ISSU y la supuesta información del navegador :D
+//Aquí esta  la dirección del día de la LaJornada en ISSUU y la supuesta información del navegador :D
 $ch =  curl_init();
-//aquí generamos la fecha
+//aquí se genera la fecha
 date_default_timezone_set('America/Mexico_City');
 $fecha = date("dmY");
 //aquí se ingresa el día al link
